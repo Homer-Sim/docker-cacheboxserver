@@ -8,4 +8,4 @@ COPY cbs/ /cbs/
 VOLUME /cbs/cachebox
 
 EXPOSE 8085
-CMD java -jar cbserver.jar
+CMD java -jar cbserver.jar -Xmx2048m
