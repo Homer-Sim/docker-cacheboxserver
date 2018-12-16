@@ -1,0 +1,1 @@
+java -jar cbserver.jar -Xmx2048m
