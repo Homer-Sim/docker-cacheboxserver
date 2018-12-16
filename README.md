@@ -17,7 +17,7 @@ docker run -d --restart=always \
   -e PUID=1000 -e PGID=1000 \
   --name=cacheboxserver \
   -v /docker/data/cbs:/cbs/cachebox \
-  homersim1/alpin-java8-cbs:latest
+  homersim1/cacheboxserver:latest
 
 
   # nach dem ersten "docker run", um alle Dateien erstell zu können
