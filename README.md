@@ -20,8 +20,9 @@ docker run -d --restart=always \
   homersim1/alpin-java8-cbs:latest
 
 
-  # nach dem ersten "docker run"
+  # nach dem ersten "docker run", um alle Dateien erstell zu können
 docker restart cachebox
-# um alle Dateien erstell zu können
 
-# access your server via <IP-Adress>:80885/cbserver
+
+# access your server via 
+<IP-Adress>:80885/cbserver
