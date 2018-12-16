@@ -25,4 +25,4 @@ docker restart cachebox
 
 
 # access your server via 
-<IP-Adress>:80885/cbserver
+<IP-Adress>:8085/cbserver
