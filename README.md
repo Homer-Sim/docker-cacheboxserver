@@ -13,7 +13,7 @@ mkdir /docker/data/cbs
 cp cachebox.db3 /docker/data/cbs
 
 docker run -d --restart=always \
-  -p 8085:8085 \
+  -p 8085:8085 -p 9911:9911 \
   -e PUID=1000 -e PGID=1000 \
   --name=cacheboxserver \
   -v /docker/data/cbs:/cbs/cachebox \
